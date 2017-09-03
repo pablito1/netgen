@@ -18,9 +18,11 @@ p {
 	font-size: 12px;
 }
 
-footer {
+span {
 	font-size: 11px;
 }
+
+
 
 
 
@@ -76,11 +78,12 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: #ddd;
+	background: #b2eaf0;
 }
 
+
 .books-list .grid .main .picture {
-	background-color: #543ddd;
+	background-color: #d0f5f0;
 	padding: 10px;
 }
 
@@ -98,12 +101,14 @@ footer {
 	bottom: 0;
 	left: 0;
 	transform: translateY(130%);
-	background-color: #33abcc;
+	background-color: #404040;
 	z-index: 2;
+	font-size: 13px;
 }
 
 .books-list .grid .review .menu .menu-item small {
 	display: block;
+	font-size: 9px;
 }
 
 
@@ -123,11 +128,13 @@ footer {
 	width: 100%;
 	height: 100px;
 	flex-wrap: nowrap;
+	margin: 0;
 }
 
 .list .grid .main {
-	height: auto;
+	height: 400px;
 	/*width: 70%;*/
+	padding: 15px;
 }
 
 .list .grid .text {
